@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FAQ</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="virtualassistant.html">Virtual Assistant</a></li>
+                <li><a href="graphicdesign.html">Graphic Design</a></li>
+                <li><a href="weddingplanner.html">Wedding Planner</a></li>
+                <li><a href="portfolio1.html">Graphic Design Portfolio</a></li>
+                <li><a href="portfolio2.html">Wedding Planner Portfolio</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label class="dark-font" for="companyEmail">Your Email</label>
+                <input type="text" id="companyEmail" name="companyEmail" required>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="companyName">Wedding Date</label>
+                <input type="text" id="companyName" name="companyName" required>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="employeeSize">Wedding Location</label>
+                <div class="select-container">
+                    <select id="employeeSize" name="employeeSize" required>
+                        <option value="" disabled selected>Please select &#9660;</option>
+                        <option value="Salt Lake City">Salt Lake City</option>
+                        <option value="Alpine">Alpine</option>
+                        <option value="Provo">Provo</option>
+                        <option value="Cedar City">Cedar City</option>
+                        <option value="Moab">Moab</option>
+                        <option value="St. George">St. George</option>
+                        <option value="Las Vegas">Las Vegas</option>
+                        <option value="Las Vegas">California</option>
+                        <option value="Other State">Other State</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="interestedService">What services are you most interested in?</label>
+                <div class="select-container">
+                    <select id="interestedService" name="interestedService" required>
+                        <option value="" disabled selected>Please select &#9660;</option>
+                        <option value="Virtual Assistant">Wedding invitation design</option>
+                        <option value="Executive Assistant">Venue selection and booking</option>
+                        <option value="Event Planner">Vendor recommendations</option>
+                        <option value="Graphic Design">Full Service Wedding Design</option>
+                        <option value="Project Manager">Day of Wedding Services</option>
+                        <option value="Holiday Party Event Designer">Holiday Party Event Services</option>
+                        <option value="Brand Designer">Brand Design</option>
+                        <option value="Wedding Invitation Designer">Graphic Design</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="dark-font" for="termsCheckbox">
+                    <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+                    I agree to HPS's <strong>Terms of Service</strong>. I also understand my personal information will be processed in accordance with HPS's <strong>Privacy Policy</strong>.
+                </label>
+            </div>
+            <div class="oval-container">
+                <input type="submit" value="Choose your service">Choose Your Service
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

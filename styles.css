@@ -1,0 +1,205 @@
+@import url("https://use.typekit.net/doq2kfg.css");
+@import url("https://use.typekit.net/doq2kfg.css");
+@import url("https://use.typekit.net/doq2kfg.css");
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE0;
+    color: #606C38;
+    text-align: left;
+}
+
+header {
+    background-color: #606C38;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #606C38;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+}
+h1{
+    text-align:center;
+}
+.hero-image {
+    width: 100%;
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+}
+p{
+    text-align:left;
+}
+.main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  text-align:left;
+}
+
+footer {
+    background-color: #606C38;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #a6937c;
+    padding: 40px;
+    border-radius: 25px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #283618;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #283618;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #283618
+}
+
+select {
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color: #FEFAE0
+;
+    color: #283618;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label.dark-font {
+    color: #606C38;
+}
+
+.select-container {
+    position: relative;
+}
+
+select {
+    width: calc(100% - 25px);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #283618;
+    pointer-events: none;
+}
+
+.oval-container {
+    position: relative;
+    margin-top: 15px;
+}
+
+.oval-container::before {
+    content: "Choose My Service";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #283618;
+    color: #fff;
+    border-radius:20px;
+    line-height: 60px; 
+    text-align: center;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+label.dark-font {
+    color: #283618;
+}
+
+.select-container {
+    position: relative;
+}
+
+select {
+    width: calc(100% - 25px);
+    padding-right: 25px;
+}
+
+select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: #283618;
+}
+
+.oval-container {
+    position: relative;
+    margin-top: 15px;
+}
+
+.oval-container::before {
+    content: "Choose your excursion";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    background-color: #283618;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 40px; /* Adjust as needed */
+    text-align: center;
+}
